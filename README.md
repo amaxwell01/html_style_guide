@@ -49,3 +49,23 @@ Organized Menu
 All images which are using the <img> tag should use the alt attribute. If not alternative is provided, it is still 
 recommened to use the alt attribute but with an empty string.
 
+## Comments
+Single line comment
+```html
+<!-- Single line comment -->
+```
+
+Multi-line comment
+```html
+<!-- Start here
+  -- Multi line comment 
+  -- More comment 
+  -->
+```
+
+Closing element comment
+```html
+<aside class="sidebar">
+    Sidebar stuff goes here
+</aside><!-- end .sidebar -->
+```
