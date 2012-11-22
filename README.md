@@ -15,6 +15,34 @@ you are not using anchor tags to link to content. This is ideally used when open
 <button>Your Button</button>
 ```
 
+## Menus
+When coding a menu, it is important to wrap your menu items with the new HTML5 <nav> tag. Since navigation links are 
+usually a list of links, it is important to place the menu items in a list.
+
+General Menu
+```html
+<nav>
+    <ul>
+        <li>Menu Item 1</li>
+        <li>Menu Item 2</li>
+        <li>Menu Item 3</li>
+    </ul>
+</nav>
+```
+
+or
+
+Organized Menu
+``` html
+<nav>
+    <ol>
+        <li>Menu Item 1</li>
+        <li>Menu Item 2</li>
+        <li>Menu Item 3</li>
+    </ol>
+</nav>
+```
+
 
 ## Attributes:
 ### alt=''
