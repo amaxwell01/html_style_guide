@@ -5,6 +5,8 @@ A dedicated style guide for HTML
 
 ## Rules:
 1. Avoid div-itis and use new HTML tags such as (header, footer, aside, article, section)
+2. Avoid the use of ID's except for when needed by JavaScript. You never know when you will need to re-use a style,
+or adapt a style for another use.
 
 ## Tags:
 
