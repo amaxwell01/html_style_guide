@@ -9,6 +9,28 @@ A dedicated style guide for clean, consistent and standards based HTML
 or adapt a style for another use.
 3. Don't code for yourself, code for others
 
+## White Space
+* Indent using soft tabs set to 4 spaces, don't use hard tabs.
+```html
+    <div class="container">
+    ∙∙∙∙<h1>Header</h1>
+    </div>
+```
+
+* Leave a single empty line between separate blocks of code
+```html
+    <div class="container">
+        <h1>Header</h1>
+    </div>
+
+    <aside class="sidebar">
+        <ul>
+            <li>Sidebar</li>
+        </ul>
+    </aside>
+```
+
+
 ## Doc Type:
 Ensure that all websites use the new HTML5 doctype
 ```html
