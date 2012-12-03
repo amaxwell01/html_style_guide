@@ -7,6 +7,7 @@ A dedicated style guide for clean, consistent and standards based HTML
 1. Avoid div-itis and use new HTML tags such as (header, footer, aside, article, section)
 2. Avoid the use of ID's except for when needed by JavaScript. You never know when you will need to re-use a style,
 or adapt a style for another use.
+3. Don't code for yourself, code for others
 
 ## Doc Type:
 Ensure that all websites use the new HTML5 doctype
@@ -70,6 +71,23 @@ or
 When writing HTML in any language, you should always use double quotes for opening and closing attributes
 ```html
 <button id="make_it_rain">Make it Rain</button>
+```
+
+### id="" / data-:
+* Do not create overly complicated ID's which will be split and parsed to capture information, 
+instead use 2 data- attributes. This will not only improve the JavaScript code used to parse the
+information, it will also ensure that you or someone else who reads it "knows" exactly the reasoning
+behind the code.
+* Only use ID's when they are needed for JavaScript or singular elements, not for variable collection
+
+###BAD
+```html
+<div id="basketball_20"></div>
+```
+
+###GOOD
+```html
+<div data-sport="basketball" data-player-number="20"></div>
 ```
 
 ### alt="":
