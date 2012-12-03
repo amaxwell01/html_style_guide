@@ -8,6 +8,25 @@ A dedicated style guide for clean, consistent and standards based HTML
 2. Avoid the use of ID's except for when needed by JavaScript. You never know when you will need to re-use a style,
 or adapt a style for another use.
 
+## Doc Type:
+Ensure that all websites use the new HTML5 doctype
+```html
+<!doctype html>
+```
+
+## Meta Tags:
+### Character set
+Ensure that all websites use UTF-8 character sets so that the pages can be read universally
+```html
+<meta charset="utf-8"> 
+```
+### Mobile / Responsive
+Make sure to include a viewport meta tag when building a responsive or mobile dedicated website
+<https://developer.mozilla.org/en-US/docs/Mobile/Viewport_meta_tag>
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+```
+
 ## Tags:
 Use the HTML <button> element when ever you are linking to elements (not content) on the same page when 
 you are not using anchor tags to link to content. This is ideally used when opening up modals, dialogs.
@@ -69,7 +88,7 @@ Instead use JavaScript or jQuery to attach the event handler to your object. The
 ```javaScript
   var rainButton = $('#make_it_rain');
 
-  rainButton.on('Click', function() {
+  rainButton.on('click', function() {
       console.log('Throw money!');
   });
 ```
