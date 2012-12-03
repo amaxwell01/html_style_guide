@@ -73,7 +73,6 @@ Instead use JavaScript or jQuery to attach the event handler to your object. The
       console.log('Throw money!');
   });
 ```
-```
 
 
 ## Comments
