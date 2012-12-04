@@ -2,6 +2,8 @@ HTML Style Guide
 ================
 A dedicated style guide for clean, consistent and standards based HTML
 
+HTML = HyperText Markup Language
+
 
 ## Rules:
 1. Avoid div-itis and use new HTML tags such as (header, footer, aside, article, section)
@@ -11,6 +13,7 @@ or adapt a style for another use.
 
 ## White Space
 * Indent using soft tabs set to 4 spaces, don't use hard tabs.
+
 ```html
     <div class="container">
     ∙∙∙∙<h1>Header</h1>
@@ -18,6 +21,7 @@ or adapt a style for another use.
 ```
 
 * Leave a single empty line between separate blocks of code
+
 ```html
     <div class="container">
         <h1>Header</h1>
